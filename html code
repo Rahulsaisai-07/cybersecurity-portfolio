@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Rahul's Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #0a0a0a;
+      color: #1abc9c;
+      line-height: 1.6;
+    }
+
+    header {
+      text-align: center;
+      padding: 100px 20px 50px;
+      background: linear-gradient(to right, #000000, #0f2027);
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #aaffee;
+      margin-bottom: 20px;
+    }
+
+    .profile-pic {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #00ffcc;
+      box-shadow: 0 0 20px #00ffcc55;
+      margin-bottom: 20px;
+    }
+
+    nav {
+      background-color: #111;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      color: #00ffcc;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    section {
+      padding: 60px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+
+    .skills, .projects, .certs {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background-color: #111;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #00ffcc33;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9rem;
+      color: #555;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <img src="rahul.jpg" alt="Rahul's Photo" class="profile-pic">
+    <h1>Hey, I'm Rahul Sai 👨‍💻</h1>
+    <p>Cybersecurity Enthusiast | Ethical Hacker </p>
+  </header>
+
+  <nav>
+    <a href="#about">About</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#certs">Certifications</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a B.Tech graduate in Electrical and Electronics Engineering with a strong interest in ethical hacking, cybersecurity, and web development. I am particularly focused on the offensive side of cybersecurity, where I analyze systems, identify vulnerabilities, and simulate real-world attacks to help improve security. My goal is to contribute to securing the digital world while also creating visually engaging and secure web experiences.
+</p>
+  </section>
+
+  <section id="skills">
+    <h2>Technical Skills</h2>
+    <div class="skills">
+      <div class="card">C Programming</div>
+      <div class="card">Kali Linux</div>
+      <div class="card">Burp Suite</div>
+      <div class="card">Python</div>
+      <div class="card">Wireshark</div>
+      <div class="card">HTML/CSS</div>
+      <div class="card">Arduino basics</div>
+      <div class="card">Metasploit</div>
+      <div class="card">OWASP top 10 Vulnerabilities</div>
+      <div class="card">Social Engineering</div>
+      <div class="card">Networking</div>
+      <div class="card">Web application security</div>
+      <div calss="card">Vulnerability Assessment</div>
+    </div>
+
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="card">Signal alerting system for trains</div>
+      <div class="card">Email scrapper</div>
+      <div class="card">AI Intrusion hunter</div>
+      <div class="card">Network Scanner</div>
+    </div>
+    <div class="card">cyber Home lab</div>
+  </section>
+
+  <section id="certs">
+    <h2>Certifications</h2>
+    <div class="certs">
+      <div class="certs">
+  
+  <div class="card">Inlighn Tech – Cybersecurity Internship (Current)</div>
+  <div class="card">WILA (Win In Life Academy) – 6 Month Diploma in Cybersecurity</div>
+  <div class="card">Internshala – Ethical Hacking Training</div>
+  <div class="card">Zenecks Infotech – Cybersecurity Internship</div>
+  <div class="card">Udemy – Bug Bounty Basics</div>
+  
+  
+</div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <p>Email: bairirahulsai16@gmail.com</p>
+    <p>Phone: +91 7207450884</p>
+    <p>GitHub: https://github.com/Rahulsaisai-07</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Bairi Rahul Sai | Built with 💻 & ❤️
+  </footer>
+</body>
+
+</html>
